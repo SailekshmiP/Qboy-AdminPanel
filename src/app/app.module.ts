@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+
 import { HeaderComponent } from './header/header.component';
 import { CategoryComponent } from './home/category/category.component';
 import { ShopComponent } from './home/shop/shop.component';
@@ -74,9 +74,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { GeneralCategoryComponent } from './general-category/general-category.component';
 import { AddGeneralCategoryComponent } from './general-category/add-general-category/add-general-category.component';
 import { EditGeneralCategoryComponent } from './general-category/edit-general-category/edit-general-category.component';
-import { TopDealsComponent } from './top-deals/top-deals.component';
-import { AddTopDealsComponent } from './top-deals/add-top-deals/add-top-deals.component';
-import { EditTopDealsComponent } from './top-deals/edit-top-deals/edit-top-deals.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+
 // import { MatSort } from '@angular/material/sort';
 
 // import { AddPriceUpdatorComponent } from './settings/add-price-updator/add-price-updator.component';
@@ -150,9 +149,7 @@ import { EditTopDealsComponent } from './top-deals/edit-top-deals/edit-top-deals
     GeneralCategoryComponent,
     AddGeneralCategoryComponent,
     EditGeneralCategoryComponent,
-    TopDealsComponent,
-    AddTopDealsComponent,
-    EditTopDealsComponent,
+ 
     // MatSort
   ],
   imports: [

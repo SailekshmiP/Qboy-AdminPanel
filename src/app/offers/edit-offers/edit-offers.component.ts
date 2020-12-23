@@ -37,6 +37,7 @@ export class EditOffersComponent implements OnInit {
   isLoading = false;
   button = 'Submit';
   pprice;
+  otmethod = 'Offers';
 
   constructor(private formbuilder: FormBuilder,
     private easydeelservice: EasydealService,
@@ -49,7 +50,7 @@ export class EditOffersComponent implements OnInit {
       {
 
         sname: ['', Validators.required],
-        mname: [''],
+        mname: ['', Validators.required],
         oloc: ['', Validators.required],
         odes: ['', Validators.required],
         tqpurc: ['', Validators.required],
@@ -63,6 +64,12 @@ export class EditOffersComponent implements OnInit {
         cashback: ['', Validators.required],
         bimages: ['', Validators.required],
       })
+      if(this.otmethod =='Offers')
+      {
+        this.offerFormRegistration.get('tqpurc').disable();
+        this.offerFormRegistration.get('tnusers').disable();
+    
+      }
 
     this.offer = JSON.parse(sessionStorage.getItem("offer"));
     this.id = this.offer['_id'];
@@ -158,4 +165,29 @@ export class EditOffersComponent implements OnInit {
 
     }
   }
+  topdealsoroffers(otmethod)
+{
+  console.log(otmethod);
+  if(this.otmethod =='Offers')
+  {
+    this.offerFormRegistration.get('tqpurc').disable();
+    this.offerFormRegistration.get('tnusers').disable();
+
+  }
+  else{
+    this.offerFormRegistration.get('tqpurc').enable();
+    this.offerFormRegistration.get('tnusers').enable();
+  }
+
+
+  if(this.otmethod =='Top Deals')
+  {
+    this.offerFormRegistration.get('cashback').disable();
+  }
+ else{
+  this.offerFormRegistration.get('cashback').enable();
+
+ }
+
+}
 }

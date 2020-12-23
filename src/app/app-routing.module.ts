@@ -116,9 +116,8 @@ const routes: Routes = [
   {path:'edit-shop-menu',component:EditShopMenuComponent},
   {path:'edit-general-shop-menu',component:EditGeneralShopMenuComponent},
   {path:'edit-offers',component:EditOffersComponent},
-  {path:'topdeals',component:TopDealsComponent},
-  {path:'addtopdeals',component:AddTopDealsComponent},
-  {path:'edittopdeals',component:EditTopDealsComponent},
+ 
+
 
 
 
