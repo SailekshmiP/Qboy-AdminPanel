@@ -26,8 +26,7 @@ export class CategoryComponent implements OnInit {
   constructor(private easydealservice: EasydealService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
-    this.apiUrl = "https://shopgi.in/";
-
+    this.apiUrl = "https://qboy.in/"
 
     this.getallCategory();
 

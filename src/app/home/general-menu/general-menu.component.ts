@@ -32,7 +32,7 @@ export class GeneralMenuComponent implements OnInit {
     private toastr: ToastrService, private router: Router) { }
 
   ngOnInit() {
-    this.apiUrl = "https://shopgi.in/";
+    this.apiUrl = "https://qboy.in/";
 
     this.getallgeneralmenu();
   }

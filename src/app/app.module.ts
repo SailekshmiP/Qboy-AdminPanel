@@ -75,6 +75,15 @@ import { GeneralCategoryComponent } from './general-category/general-category.co
 import { AddGeneralCategoryComponent } from './general-category/add-general-category/add-general-category.component';
 import { EditGeneralCategoryComponent } from './general-category/edit-general-category/edit-general-category.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ChatBoxComponent } from './settings/chat-box/chat-box.component';
+import { AddChatBoxComponent } from './settings/chat-box/add-chat-box/add-chat-box.component';
+import { EditChatBoxComponent } from './settings/chat-box/edit-chat-box/edit-chat-box.component';
+import { ShopCredentialsComponent } from './settings/shop-credentials/shop-credentials.component';
+import { AddShopCredentialsComponent } from './settings/shop-credentials/add-shop-credentials/add-shop-credentials.component';
+import { EditShopCredentialsComponent } from './settings/shop-credentials/edit-shop-credentials/edit-shop-credentials.component';
+import { AdminCredentialsComponent } from './settings/admin-credentials/admin-credentials.component';
+import { AddAdminCredentialsComponent } from './settings/admin-credentials/add-admin-credentials/add-admin-credentials.component';
+import { EditAdminCredentialsComponent } from './settings/admin-credentials/edit-admin-credentials/edit-admin-credentials.component';
 
 // import { MatSort } from '@angular/material/sort';
 
@@ -149,6 +158,15 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     GeneralCategoryComponent,
     AddGeneralCategoryComponent,
     EditGeneralCategoryComponent,
+    ChatBoxComponent,
+    AddChatBoxComponent,
+    EditChatBoxComponent,
+    ShopCredentialsComponent,
+    AddShopCredentialsComponent,
+    EditShopCredentialsComponent,
+    AdminCredentialsComponent,
+    AddAdminCredentialsComponent,
+    EditAdminCredentialsComponent,
  
     // MatSort
   ],

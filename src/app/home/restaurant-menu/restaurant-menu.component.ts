@@ -35,7 +35,7 @@ export class RestaurantMenuComponent implements OnInit {
   constructor(private easydealservice: EasydealService, private toastr: ToastrService, private router: Router) { }
 
   ngOnInit() {
-    this.apiUrl = "https://shopgi.in/";
+    this.apiUrl = "https://qboy.in/";
     this.getallmenu();
   }
 

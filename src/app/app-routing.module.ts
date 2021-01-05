@@ -43,10 +43,19 @@ import { PurchaseComponent } from './reports/purchase/purchase.component';
 import { ReportsComponent } from './reports/reports.component';
 import { SalesComponent } from './reports/sales/sales.component';
 import { AddSettingsComponent } from './settings/add-settings/add-settings.component';
+import { AddAdminCredentialsComponent } from './settings/admin-credentials/add-admin-credentials/add-admin-credentials.component';
+import { AdminCredentialsComponent } from './settings/admin-credentials/admin-credentials.component';
+import { EditAdminCredentialsComponent } from './settings/admin-credentials/edit-admin-credentials/edit-admin-credentials.component';
+import { AddChatBoxComponent } from './settings/chat-box/add-chat-box/add-chat-box.component';
+import { ChatBoxComponent } from './settings/chat-box/chat-box.component';
+import { EditChatBoxComponent } from './settings/chat-box/edit-chat-box/edit-chat-box.component';
 import { MasteradminphonenumberComponent } from './settings/masteradminphonenumber/masteradminphonenumber.component';
 import { AddPriceUpdatorComponent } from './settings/price-updator/add-price-updator/add-price-updator.component';
 import { PriceUpdatorComponent } from './settings/price-updator/price-updator.component';
 import { SettingsComponent } from './settings/settings.component';
+import { AddShopCredentialsComponent } from './settings/shop-credentials/add-shop-credentials/add-shop-credentials.component';
+import { EditShopCredentialsComponent } from './settings/shop-credentials/edit-shop-credentials/edit-shop-credentials.component';
+import { ShopCredentialsComponent } from './settings/shop-credentials/shop-credentials.component';
 import { WalletpointsComponent } from './settings/walletpoints/walletpoints.component';
 import { AddShopAdminMenuNameComponent } from './shop_admin_section/shop-admin-menu-name/add-shop-admin-menu-name/add-shop-admin-menu-name.component';
 import { ShopAdminMenuNameComponent } from './shop_admin_section/shop-admin-menu-name/shop-admin-menu-name.component';
@@ -116,7 +125,16 @@ const routes: Routes = [
   {path:'edit-shop-menu',component:EditShopMenuComponent},
   {path:'edit-general-shop-menu',component:EditGeneralShopMenuComponent},
   {path:'edit-offers',component:EditOffersComponent},
- 
+  {path:'shop-credentials',component:ShopCredentialsComponent},
+  {path:'add-shop-credentials',component:AddShopCredentialsComponent},
+  {path:'edit-shop-credentials',component:EditShopCredentialsComponent},
+  {path:'admin-credentials',component:AdminCredentialsComponent},
+  {path:'add-admin-credentials',component:AddAdminCredentialsComponent},
+  {path:'admin-credentials',component:EditAdminCredentialsComponent},
+  {path:'chat-box',component:ChatBoxComponent},
+  {path:'add-chat-box',component:AddChatBoxComponent},
+  {path:'edit-chat-box',component:EditChatBoxComponent},
+
 
 
 
