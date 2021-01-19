@@ -1,2 +1,0 @@
-# Qboy-AdminPanel
-Qboy AdminPanel
