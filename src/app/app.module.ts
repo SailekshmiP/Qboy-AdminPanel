@@ -88,6 +88,12 @@ import { AddMenuApprovalRequestComponent } from './home/approval-request/add-men
 import { EditMenuApprovalRequestComponent } from './home/approval-request/edit-menu-approval-request/edit-menu-approval-request.component';
 import { ViewOrderDetailsComponent } from './home/orders/view-order-details/view-order-details.component';
 import { ViewPreOrdersComponent } from './home/pre-orders/view-pre-orders/view-pre-orders.component';
+import { UpiCredentialsComponent } from './settings/upi-credentials/upi-credentials.component';
+import { AddUpiCredentialsComponent } from './settings/upi-credentials/add-upi-credentials/add-upi-credentials.component';
+import { EditUpiCredentialsComponent } from './settings/upi-credentials/edit-upi-credentials/edit-upi-credentials.component';
+import { LocationAdminPhonenumberComponent } from './settings/location-admin-phonenumber/location-admin-phonenumber.component';
+import { AddLocationAdminPhonenumberComponent } from './settings/location-admin-phonenumber/add-location-admin-phonenumber/add-location-admin-phonenumber.component';
+import { EditLocationAdminPhonenumberComponent } from './settings/location-admin-phonenumber/edit-location-admin-phonenumber/edit-location-admin-phonenumber.component';
 
 // import { MatSort } from '@angular/material/sort';
 
@@ -175,6 +181,12 @@ import { ViewPreOrdersComponent } from './home/pre-orders/view-pre-orders/view-p
     EditMenuApprovalRequestComponent,
     ViewOrderDetailsComponent,
     ViewPreOrdersComponent,
+    UpiCredentialsComponent,
+    AddUpiCredentialsComponent,
+    EditUpiCredentialsComponent,
+    LocationAdminPhonenumberComponent,
+    AddLocationAdminPhonenumberComponent,
+    EditLocationAdminPhonenumberComponent,
  
     // MatSort
   ],

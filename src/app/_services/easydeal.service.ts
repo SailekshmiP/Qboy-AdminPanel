@@ -267,4 +267,51 @@ export class EasydealService {
   login(req){
     return this.http.post(this.apiUrl+"admin/login",req);
   }
+  addadminphone(s)
+  {
+    return this.http.post(this.apiUrl+'master_phone/post',s);
+  }
+  getadminphone()
+  {
+    return this.http.get(this.apiUrl+'master_phone');
+  }
+  addwalletpoints(req) {
+    return this.http.post(this.apiUrl + 'walletpoint/post',req);
+  }
+  updatewalletpoints(req,id)
+  {
+    return this.http.patch(this.apiUrl+'walletpoint/edit/'+id,req)
+  }
+  getwalletpoints() {
+    return this.http.get(this.apiUrl + 'walletpoint');
+  }
+  updateadminphone(s, id) {
+    return this.http.patch(this.apiUrl + 'master_phone/edit/' + id, s);
+
+  }
+  addlocationadmin(req) {
+    return this.http.post(this.apiUrl + 'admin/signup', req);
+  }
+  getallupinumbers() {
+    return this.http.get(this.apiUrl + 'upinumber');
+
+  }
+  addupinumber(req) {
+    return this.http.post(this.apiUrl + 'upinumber/post', req);
+  }
+  updateupi(req, id) {
+    return this.http.patch(this.apiUrl + 'upinumber/edit/' + id, req);
+  }
+  addlocationadminphone(req)
+  {
+    return this.http.post(this.apiUrl+'branch_phone/post',req);
+  }
+  getallphonenumbers()
+  {
+    return this.http.get(this.apiUrl+'branch_phone');
+  }
+  updatelocationadminphone(req,id)
+{
+  return this.http.patch(this.apiUrl+'branch_phone/edit/'+id,req);
+}
 }
